@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <style>
+        :root{
+            border: 5px solid orange;
+            border-radius: 2%;
+            margin: 20px 300px;
+            padding: 20px 300x;
+            position: sticky;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .container{
+            background-color: pink;
+            
+        }
+        .bio{
+           margin: 12px 150px;
+           padding: 12px, 150px;          
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="bio">Bio-Data</h3>
+        <div>
+            Name: <input type="text" name="text">
+        </div>
+        <div>
+            Date of Birth: <input type="date" name="dob">
+        </div>
+        <div>
+            Gender:
+            Male <input type="radio" name="status">Female<input type="radio" name="status"> Other<input type="radio"
+                name="status">
+        </div>
+        <div>
+            Blood Group: <input type="text" name="bg">
+        </div>
+        <div>
+            Email: <input type="email" name="email">
+        </div>
+        <div>
+            Mobile Number: <input type="text" name="mobile">
+        </div>
+        <div>
+            Qualifiation:
+            <select name="drop1" size="4" id="Qualifiation" multiple="multiple">
+                <option value="1">Any</option>
+                <option value="2">High School</option>
+                <option value="3">Associate</option>
+                <option value="4">Pre Bachelors</option>
+                <option value="5">Bachelors</option>
+            </select>
+
+            <input type="button" value="ADD"><input type="button" value="Remove">
+            <select name="drop1" id="SelectedQualifiation" size="4" multiple="multiple">
+                <option value="1">High School</option>
+            </select>
+        </div>
+        <div>
+            Marital Status:
+            Single <input type="radio" name="status">Maried<input type="radio" name="status">
+        </div>
+        <div>
+            Father's Name: <input type="text" name="fname">
+        </div>
+        <div>
+            Mother's Name: <input type="text" name="mname">
+        </div>
+        <div>
+            place of Birth: <input type="text" name="pname">
+        </div>
+        <div>
+            Language Known: <input type="text" name="lname">
+        </div>
+        <div>
+            Hobbies: <input type="text" name="hob">
+        </div>
+        <div>
+            Place Lived: <input type="text" name="plived">
+        </div>
+        <div>
+            Job Experience:
+            <textarea name="job" id="jexp" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            Siblings:
+            <textarea name="sib" id="siblings" cols="30" rows="10"></textarea>
+           
+        </div>
+        <div>
+            <br>
+            <input type="button" value="Submit">
+            <input type="button" value="Reset">
+        </div>
+    </div>
+     
+
+</body>
+
+</html>
